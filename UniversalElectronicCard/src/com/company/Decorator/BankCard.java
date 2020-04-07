@@ -2,7 +2,11 @@ package com.company.Decorator;
 
 import java.util.Date;
 
-//Банковская карта
+/**
+ * Created class BankCard, which describe entity 'BankCard'.
+ * @author Moiseikov R.A
+ * @version 1.0
+ */
 public class BankCard extends FunctionType {
     private int cardNumber;
     private Date shelflife;

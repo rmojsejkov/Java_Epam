@@ -2,7 +2,11 @@ package com.company.Decorator;
 
 import java.util.Date;
 
-//Паспорт
+/**
+ * Created class BankCard, which describe entity 'Passport'.
+ * @author Moiseikov R.A
+ * @version 1.0
+ */
 public class Passport extends FunctionType {
     private String name;
     private String surname;

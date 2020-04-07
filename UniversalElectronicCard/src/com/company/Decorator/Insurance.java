@@ -2,7 +2,11 @@ package com.company.Decorator;
 
 import java.util.Date;
 
-//Страховой полис
+/**
+ * Created class BankCard, which describe entity 'Insurance'.
+ * @author Moiseikov R.A
+ * @version 1.0
+ */
 public class Insurance extends FunctionType {
     public enum TypeInsurance{
         CUSTOM,
