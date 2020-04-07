@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company.Main</OriginalElement>
+  <nodes>
+    <node x="-128.0" y="-80.0">com.company.Decorator.Insurance</node>
+    <node x="-252.0" y="-80.0">com.company.Decorator.BankCard</node>
+    <node x="13.5" y="-159.0">com.company.Decorator.Card</node>
+    <node x="143.0" y="-78.0">com.company.Main</node>
+    <node x="3.0" y="-80.0">com.company.Decorator.Passport</node>
+    <node x="-45.0" y="-238.0">com.company.Decorator.UEC</node>
+    <node x="-138.5" y="-159.0">com.company.Decorator.FunctionType</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Decorator.FunctionType" target="com.company.Decorator.UEC">
+      <point x="0.0" y="-14.5" />
+      <point x="-72.5" y="-184.0" />
+      <point x="-27.75" y="-184.0" />
+      <point x="-17.25" y="14.5" />
+    </edge>
+    <edge source="com.company.Decorator.Passport" target="com.company.Decorator.FunctionType">
+      <point x="0.0" y="-14.5" />
+      <point x="55.0" y="-105.0" />
+      <point x="-28.5" y="-105.0" />
+      <point x="44.0" y="14.5" />
+    </edge>
+    <edge source="com.company.Decorator.BankCard" target="com.company.Decorator.FunctionType">
+      <point x="0.0" y="-14.5" />
+      <point x="-200.0" y="-105.0" />
+      <point x="-116.5" y="-105.0" />
+      <point x="-44.0" y="14.5" />
+    </edge>
+    <edge source="com.company.Decorator.Insurance" target="com.company.Decorator.FunctionType">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.company.Decorator.Card" target="com.company.Decorator.UEC">
+      <point x="0.0" y="-14.5" />
+      <point x="51.5" y="-184.0" />
+      <point x="6.75" y="-184.0" />
+      <point x="17.25" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="38.0" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
